@@ -18,8 +18,12 @@ public abstract class Hero extends GameEntity {
 
     public abstract void applySuperPower(Boss boss, Hero[] heroes);
 
+    public abstract void applySuperPower(Boss boss, Hero[] heroes, int thatRound);
+
     @Override
     public String toString() {
-        return this.getClass().getSimpleName() + " " + super.toString();
+        return this.getClass().getSimpleName() + " " + getName() +
+                " health: " + getHealth() +
+                " damage: " + getDamage();
     }
 }

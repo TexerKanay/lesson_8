@@ -8,12 +8,16 @@ public class Medic extends Hero {
         this.healPoints = healPoints;
     }
 
-    @Override
     public void applySuperPower(Boss boss, Hero[] heroes) {
         for (Hero hero : heroes) {
             if (hero != this && hero.getHealth() > 0) {
                 hero.setHealth(hero.getHealth() + healPoints);
             }
         }
+    }
+
+    @Override
+    public void applySuperPower(Boss boss, Hero[] heroes, int thatRound) {
+
     }
 }

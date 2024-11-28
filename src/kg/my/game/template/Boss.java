@@ -3,6 +3,7 @@ package kg.my.game.template;
 import kg.my.game.logic.RPG_Game;
 
 public class Boss extends GameEntity {
+    public Object takeDamage;
     private SuperAbility defence;
 
     public Boss(String name, int health, int damage) {

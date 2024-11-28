@@ -14,4 +14,9 @@ public class Warrior extends Hero {
         System.out.println("Warrior " + this.getName() + " attacked critically "
                 + this.getDamage() * coeff + " damage");
     }
+
+    @Override
+    public void applySuperPower(Boss boss, Hero[] heroes, int thatRound) {
+
+    }
 }
