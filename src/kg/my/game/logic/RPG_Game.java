@@ -1,6 +1,6 @@
 package kg.my.game.logic;
-import kg.my.game.heroes.Antman;
-import kg.my.game.heroes.Deku;
+import kg.my.game.template.Antman;
+import kg.my.game.template.Deku;
 import kg.my.game.template.*;
 import java.util.Random;
 

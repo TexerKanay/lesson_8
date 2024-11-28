@@ -1,6 +1,4 @@
-package kg.my.game.heroes;
-
-import kg.my.game.template.*;
+package kg.my.game.template;
 
 import java.util.Random;
 
@@ -26,7 +24,7 @@ public class Antman extends Hero {
         if (sizeFactor != 0) {
             setHealth(originalHealth + sizeFactor * 50);
             setDamage(originalDamage + sizeFactor * 10);
-            System.out.println(getName() + " изменил размер  " + getHealth() + " урон " + getDamage());
+            System.out.println(getName() + " изменил размер  " + getHealth() + " урон: " + getDamage());
         }
     }
 }

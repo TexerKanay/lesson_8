@@ -1,6 +1,5 @@
-package kg.my.game.heroes;
+package kg.my.game.template;
 
-import kg.my.game.template.*;
 import java.util.Random;
 
 public class Deku extends Hero {
